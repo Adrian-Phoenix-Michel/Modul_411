@@ -4,9 +4,9 @@ public class InsertionSort {
 
     static void insertionSort(int[] A) {
         int n = A.length;
-        int i = 0;
-        int j = 0;
-        int value = A[i];
+        int i;
+        int j;
+        int value;
 
         for (i = 1; i < n; ++i) {
             value = A[i];
