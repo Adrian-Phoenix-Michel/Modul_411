@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class InsertionSort {
 
-    static void insertionSort(int[] A) {
+    private static void insertionSort(int[] A) {
         int n = A.length;
         int i;
         int j;
